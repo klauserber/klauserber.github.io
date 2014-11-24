@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html lang='de'%}
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="lang-switch">
+          <a href="index_en.html"><img src="img/iflag_uk.gif"/> english version</a>
+        </div>
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
