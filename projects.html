@@ -18,9 +18,9 @@ pos: 5
     <td>Issue</td>
     <td>
       {% if project.issue_en %}
-        {{ project.issue_en }}
+        {{ project.issue_en | markdownify }}
       {% else %}
-        {{ project.issue }}
+        {{ project.issue | markdownify }}
       {% endif %}
     </td>
   </tr>

@@ -392,456 +392,340 @@
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Außendienstsystem
+  title_en: Outside service system
 # =========================================================
 
   issue: |
+    Erweiterung einer Oracle8i-Java-Anwendung für den Einsatz im Außendienst auf der Basis von Oracle Lite. Entwicklung eines Replikationstools mit Java/JDBC.
 
+  period: 09/2001
 
-  period:
+  sector: Behörde
 
-  sector:
-
-  technic:
+  technic: Oracle8i, Oracle Lite, Oracle Mobile Server
 
   issue_en: |
+    Exention of a Oracle8i-Java-Application for field work. Development of a replication tool with Java/JDBC.
 
-
-  sector_en:
+  sector_en: Authority
 
   technic_en:
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Oracle Migration
+  title_en: Oracle migration
 # =========================================================
 
   issue: |
+    Planung und Durchführung der Migration einer Java/Corba-Anwendung zur Schiffsdatenverwaltung von Open Ingres 2.0 nach Oracle8i. Hierfür wurden mehrere Oracle Testinstanzen aufgesetzt sowie das Produktivsystem dimensioniert.
 
+  period: 08/2001
 
-  period:
+  sector: Behörde
 
-  sector:
-
-  technic:
+  technic: ERWin, Java/JDBC, Oracle SQL Loader, Windows NT 4.0, SunOS 2.6
 
   issue_en: |
-
+    Planning and implementation of a database migration of a Java/Corba application for ship data management from Open Ingres 2.0 to Orcale8i. Serveral Oracle test instances have been implemented for this purpose and the production system have been dimensioned.
 
   sector_en:
 
   technic_en:
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Java/Swing/XML-Entwicklung
+  title_en: Java/Swing/XML-development
 # =========================================================
 
   issue: |
+    Erweiterung eines bestehenden Frameworks zur Frontentwicklung von Versicherungsanwendungen. Um die grafische Benutzerschnittstelle dynamisch aufbauen zu können, musste das bestehende fixe binäre Austauschformat durch ein XML-basierendes Format ersetzt werden. Außerdem wurden alle AWT-Oberflächenelemente auf Swing umgestellt.
 
+    Einhaltung vorhandener Java- und XML-Standards. Insbesondere Einhaltung des Model-View-Controller-Konzeptes.
 
-  period:
+    Analyse der Anforderungen.
 
-  sector:
+    Design und Implementierung der neuen Basisklassen.
 
-  technic:
+    Integration in das bestehende Framework.
+
+    Schaffung einer geeigneten Umgebung für Anwendungsentwickler.
+
+    Erarbeitung eines plugin-Konzeptes zur flexiblen und modularen Erweiterung der Anwendung.
+
+  period: 01/2001 - 06/2001
+
+  sector: Versicherung
+
+  technic: XML (Austauschformat), JDK1.3, jdom (Java-XML-API), JFC/Swing,JBuilder Open Tools API (Erweiterungsschnittstelle für Borlands JBuilder), SGML/Docbook/Jade/XEmacs (zur Projektdokumentation)
 
   issue_en: |
+    Extension of an existing framework for the GUI-development. It was crucial that a dynamic structure of surface should be possible. For this the existing fixed binary exchange format must be replaced by a XML based format. Additionally all AWT-Components are changed over to Swing.
 
+    Adherence to of available Java and XML standards. In particular adherence to the model view controller concept.
 
-  sector_en:
+    Analysis of the requirements.
 
-  technic_en:
+    Design and implementation of the new base classes.
 
-  archived: -1
+    Integration into the existing framwork.
+
+    Creation of a suitable environment for application developers.
+
+    Development of a plugin concept for the flexible and modular extension of the application.
+
+  sector_en: Insurance
+
+  technic_en: XML (exchange format), JDK1.3, jdom (Java-XML-API), JFC/Swing,JBuilder open tools API (extention interface for Borlands JBuilder),SGML/Docbook/Jade/XEmacs (for project documentation)
+
+  archived: 0
 
 # =========================================================
 # Project
-- title:
+- title: Webdesign
   title_en:
 # =========================================================
 
   issue: |
+    Planung und Konzeption und Realisierung von Online-Informationssystemen (Intranet und WEB-Präsenz) bei einem IT-Dienstleister.
 
+  period: 01/1999 - 01/2001
 
-  period:
+  sector: IT
 
-  sector:
-
-  technic:
+  technic: Linux, Apache Webserver, MySQL, Sendmail, imap, twig (Groupware), PHP3/4, JavaScript, HTML
 
   issue_en: |
-
+    Planning, design and implementation of online information systems (Intranet and WEB-site).
 
   sector_en:
 
   technic_en:
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: C/Java-Programmierung, Außendienstsystem
+  title_en: C/Java-development, outside service system
 # =========================================================
 
   issue: |
+    Beratung und Unterstützung innerhalb eines Projektes zur Konzeption und Implementierung eines Außendienstsystems in der Versicherungsbranche.
 
+    Erarbeitung eines Fach- und IT-Konzeptes. Geschäftsprozessanalyse (Moderierung der Workshops beim Endkunden), Design der Benutzeroberflächen mittels Prototyping
 
-  period:
+    Evaluierung diverser Technologien mit anschließender Beratung.
 
-  sector:
+    Technische Projektkoordination der Teamentwicklung.
 
-  technic:
+    Detaildesign und Implementierung der Clientanwendung.
+
+    Aufbau einer Teamentwicklungsumgebung inkl. Sourcecode-/Versionsverwaltung (CVS), Buildumgebung (GNU-Make) und der Festlegung organisatorischer Regelungen (HowTos, Newsforum, Auslieferungsprozess, Projekt-WEBSite, Dokumentation)
+
+  period: 06/1999 - 10/2000
+
+  sector: Versicherung
+
+  technic: Evaluierung XML-APIs (Java, C), JSP/Servlets/JavaScript, Java WEB-Start, Java IDEs (Jbuilder, Forte4j, VisualCafe), JavaPlugins 1.2/1.3, Webbrowser Netscape (4.7x, 6.0), Internet Explorer (5.0, 5.5), div. inhouse-APIs, Open-Source-Lizenzen. Serverteil (C, DB2, AIX/SunOS, CICS/UNIKIX)
 
   issue_en: |
+    Training and support as part of a project for the design and implementation of a field service system in an insurance company.
 
+    Development of a technical and IT concept. Business process analysis (moderation of the end-user workshops), Design of the user surfaces by means of prototyping.
+
+    Evaluation of various technologies with following consultation.
+
+    Technical project co-ordination of the team development.
+
+    Detail Design and implementation of the client application.
+
+    Implementation of a team development environment inclusive source code version system (CVS), build environment (GNU make) and the definition of organizational regulations (HowTos, news forum, distribution process, project WEB-site, documentation).
 
   sector_en:
 
-  technic_en:
+  technic_en: Evaluation XML-APIs (Java, C), JSP/Servlets/JavaScript, Java WEB-Start, Java IDEs (Jbuilder, Forte4j, VisualCafe), JavaPlugins 1.2/1.3, Webbrowser Netscape (4.7x, 6.0), Internet Explorer (5.0, 5.5), div. inhouse-APIs, open-source-licences. Server section (C, DB2, AIX/SunOS, CICS/UNIKIX)
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Java/Swing-Programmierung, Datenbankwerkzeug
+  title_en: Java/Swing-development, database tool
 # =========================================================
 
   issue: |
+    Konzeption und Implementierung eines universell einsetzbaren Datenbankanalysewerkzeuges
 
+  period: 06/1999
 
-  period:
+  sector: IT
 
-  sector:
-
-  technic:
+  technic: Java, Swing, JDBC
 
   issue_en: |
-
+    Design, development and implementation of a universally applicable data base analysis tool.
 
   sector_en:
 
   technic_en:
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Installation und Konfiguration einer betriebswirtschaftlichen Standardsoftware
+  title_en: Installation und configuration of a business accounting standard software
 # =========================================================
 
   issue: |
+    Installation und Konfiguration mehrerer Umgebungen der betriebswirtschaftlichen Standardsoftware Linux-Kontor inklusive Datenbankadministration.
 
+  period: 05/1999
 
-  period:
+  sector: IT
 
-  sector:
-
-  technic:
+  technic: Linux, Java/RMI, JDBC, ADABAS D
 
   issue_en: |
-
+    Installation and configuration of several environments of the standard software Linux-Kontor inclusive data base administration.
 
   sector_en:
 
   technic_en:
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Analyse, Design und Implementierung eines Ultra-Thin-Client Netzwerkes
+  title_en: Analysis, design and implementing of an ultra-thin-client network
 # =========================================================
 
   issue: |
+    Konzeption und Realisierung einer IT-Umgebung zum Betrieb von Ultra-Thin-Clients mit zentralen Applikationsservern.
 
+  period: 01/1999 - 03/1999
 
-  period:
+  sector: IT
 
-  sector:
-
-  technic:
+  technic: Linux, Standard INTEL-PC-Komponenten, EPROM-Programmierung für Netzwerkkarten, BOOTP als Bootmechanismus, Linux-Kernelkonfiguration und Kompilierung, Installation und Konfiguration diverser Linuxanwendungen (Apache, KDE, Entwicklungswerkzeuge u. a.), UNIX-Shellprogrammierung (Backupkonzept), Einrichtung diverser Netzwerkdienste unter Linux (POP3, IMAP4, HTTP, FTP u. a.), ISDN-Anbindung an das Internet sowie an Kundennetze
 
   issue_en: |
-
+    Design, development and implementation of an IT environment to operate "ultra-thin-clients" networks with central application servers.
 
   sector_en:
 
-  technic_en:
+  technic_en: Linux, standard INTEL-PC-components, EPROM development for network devices, BOOTP as boot mechanism, Linux kernel configuration and compilation, installation and configuration of various Linux applications (apache, KDE, development environments and other), UNIX shell programming (backup concept), setup of various network services under Linux (POP3, IMAP4, HTTP, FTP and other), ISDN connections to the internet and to the customer networks.
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Systemanalyse und -Design, Visual Basic Programmierung
+  title_en: Systemanalysis and -design, Visual Basic development
 # =========================================================
 
   issue: |
+    Konzeption und Realisierung eines Informationssystems zur Integration von Produktionsdaten.
 
+  period: 02/1998 - 10/1998
 
-  period:
+  sector: Mineralölbranche
 
-  sector:
-
-  technic:
+  technic: Windows NT Server, Windows NT WS, Visual Basic 5.0, MS-SQL-Server 6.5, Rational Rose/MS-Visual-Modeller, COM, RDO, Excel-VBA-Programmierung, DEC/VMS-Rechner zur Prozessdatenarchivierung mit der Standardsoftare CONDAS.
 
   issue_en: |
+    Design and implementation of an information system for the integration of manufacturing data.
 
+  sector_en: Mineral oil industry
 
-  sector_en:
+  technic_en: Windows NT Server, Windows NT WS, Visual Basic 5.0, MS-SQL-Server 6.5, Rational Rose/MS-Visual-Modeller, COM, RDO, Excel-VBA-development, DEC/VMS machine for process data archiving with the standard softare CONDAS.
 
-  technic_en:
-
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Systemanalyse, Evaluierung
+  title_en: Systemanalysis, evaluation
 # =========================================================
 
   issue: |
+    Analyse von Benutzeranforderungen zur Evaluierung von Instandhaltungsplanungssystemen. Konzeption, Realisierung und Einführung einer Übergangslösung.
 
+  period: 01/1997 - 03/1997
 
-  period:
+  sector: Mineralölbranche
 
-  sector:
-
-  technic:
+  technic: Standardsoftware Mainplan, MS-Access für die Übergangslösung
 
   issue_en: |
+    Analysis of user demands for the evaluation of maintenance planning systems. Design and implementation of a preliminary solution.
 
+  sector_en: Mineral oil industry
 
-  sector_en:
+  technic_en: Standard software 'Mainplan', MS-Access for the temporary solution
 
-  technic_en:
-
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: VB-Programmierung, Datenbanken, GUI-Design
+  title_en: VB-development, database- and GUI-design
 # =========================================================
 
   issue: |
+    Konzeption, Realisierung und Einführung einer Anwendung zur Massenbilanzierung von flüssig gelagerten Produkten, inklusive der Migration der Altdaten aus einem System der mittleren Datentechnik in das Bilanzierungssystem.
 
+    Implementierung komplexer physikalischer Rechenregeln, Import nicht elektronisch erfasster Daten (Eichtabellen) über OCR-Software
 
-  period:
+  period: 04/1996 - 09/1996
 
-  sector:
+  sector: Mineralölbranche
 
-  technic:
+  technic: Visual Basic 3.0, MS-Access, HP-3000
 
   issue_en: |
+    Design, development and implementation of an application for the mass balancing of liquid stored products, including the migration of the historical data from the existing hardware platform to the new one.
 
+    Implementation of complex physical arithmetic rules, input of not electronically captured data (calibration charts) by using OCR software.
 
-  sector_en:
+  sector_en: Mineral oil industry
 
   technic_en:
 
-  archived: -1
+  archived: 0
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Skript- und Datenbankprogrammierung
+  title_en: Script- und Databasedevelopment
 # =========================================================
 
   issue: |
+    Konzeption, Realisierung und Einführung einer Anwendung zur Mandantenverwaltung im Umfeld eines Steuerberatungsbüros.
 
+    Neben der reinen Adressverwaltung von Mandanten wurde mit diesem System auch der Workflow der Sachbearbeiter unterstützt.
 
-  period:
+  period: 05/1994 - 06/1995
 
-  sector:
+  sector: Steuerberatung
 
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
+  technic: Lotus Symphony Makroprogrammierung, dBase
 
   issue_en: |
+    Design, development and implementation of a system for the client administration.
 
+    Besides maintenance client master files the system was also used for workflow monitoring.
 
-  sector_en:
+  sector_en: Tax consulting
 
-  technic_en:
+  technic_en: Lotus Symphony macro development, dBase
 
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
+  archived: 0
