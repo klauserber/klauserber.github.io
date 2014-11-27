@@ -1,0 +1,59 @@
+---
+title: Projects
+layout: page_en
+lang: en
+pos: 5
+---
+{% for project in site.data.projects %}
+{% if project.archived == 0 %}
+<h2>
+  {% if project.title_en %}
+    {{ project.title_en }}
+  {% else %}
+    {{ project.title }}
+  {% endif %}
+</h2>
+<table>
+  <tr>
+    <td>Issue</td>
+    <td>
+      {% if project.issue_en %}
+        {{ project.issue_en }}
+      {% else %}
+        {{ project.issue }}
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td>Period</td>
+    <td>
+      {% if project.period_en %}
+        {{ project.period_en }}
+      {% else %}
+        {{ project.period }}
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td>Sector</td>
+    <td>
+      {% if project.sector_en %}
+        {{ project.sector_en }}
+      {% else %}
+        {{ project.sector }}
+      {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td>Technologies</td>
+    <td>
+      {% if project.technic_en %}
+        {{ project.technic_en }}
+      {% else %}
+        {{ project.technic }}
+      {% endif %}
+    </td>
+  </tr>
+</table>
+{% endif %}
+{% endfor %}
