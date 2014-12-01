@@ -16,6 +16,6 @@ Wenn Sie Fragen oder Anregungen haben, erreichen Sie mich unter:
 
 Hier noch ein kleiner Hinweis: Wenn Sie die Informationen dieser WEB-Seiten in ausgedrucker Form benötigen können Sie den Bereich Druckversion benutzen.
 
-Vielen Dank für Ihren Besuch
+Vielen Dank für Ihren Besuch.
 
 Klaus Erber
