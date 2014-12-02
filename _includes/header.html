@@ -15,9 +15,14 @@
 
       <div class="trigger">
         {% assign sorted_pages = (site.pages | sort: 'pos') %}
-        {% for page in sorted_pages %}
-          {% if page.title and page.lang == include.lang %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% for p in sorted_pages %}
+          {% if p.title and p.lang == include.lang %}
+            {% if p.pos == page.pos %}
+              <a class="page-link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+            {% endif %}
+            {% if p.pos != page.pos %}
+              <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>

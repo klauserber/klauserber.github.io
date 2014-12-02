@@ -1,25 +1,38 @@
+.site-header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.page-content {
+  margin-top: 60px;
+}
 
 .site-title {
   font-size: 1.2em;
-  color: #f0f0f0;
+  color: $grey-color-light;
 }
 .site-title:visited {
-  color: #f0f0f0;
+  color: $grey-color-light;
 }
 
 nav {
   font-size: 0.9em;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $on-palm) {
   .site-nav .page-link {
-    color: #f0f0f0;
-  }  
-}
-
-.site-header {
-  background-color: #4367AB;
-  border-bottom: 2px solid #424242;
+    color: $grey-color-light;
+    display: inline-block;
+    height: 56px;
+    padding: 0px 8px 0px 8px;
+  }
+  .site-nav .active {
+    background-color: $brand-color-light;
+  }
+  .site-nav .page-link:hover {
+    background-color: $brand-color-light;
+  }
 }
 
 .page-content {
@@ -36,9 +49,35 @@ a:hover {
 
 .my-image {
   float: right;
-  border: 2px solid #e0e0e0;
+  border: 2px solid $grey-color;
   padding: 3px;
 }
 
-a {
+/* Tables */
+table {
+  width: 100%;
+  border: 1px solid $grey-color-light;
+  margin-bottom: $spacing-unit;
+}
+
+th {
+  text-align: left;
+  padding: 4px 8px 4px 8px;
+}
+
+td {
+  vertical-align: top;
+  padding: 4px 8px 4px 8px;
+}
+
+td:first-child {
+  width: 25%;
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: $grey-color-lighter;
+}
+tr:nth-child(even) {
+  background-color: $grey-color-light;
 }
