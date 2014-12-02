@@ -10,6 +10,11 @@
       <div class="wrapper">
         <div class="lang-switch">
           <a href="index_en.html"><img src="img/iflag_uk.gif"/> english version</a>
+          <pre>
+            {% for p in (site.pages | where:"pos","1") %}
+              {{ p.title }}
+            {% endfor %}
+          </pre>
         </div>
         {{ content }}
       </div>
