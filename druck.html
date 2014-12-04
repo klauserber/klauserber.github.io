@@ -1,0 +1,66 @@
+---
+title: Druck
+layout: page
+lang: de
+pos: 6
+excluded: 1
+notitle: 1
+---
+<h1>Profile Klaus Erber</h1>
+<img class="my-image" src="img/ErberKlaus.jpg" />
+<p>Weitere Dokumente:</p>
+<table style="width:50%">
+    <tbody>
+        <tr>
+            <td style="width:70%">Diplom</td>
+            <td><a href="assets/diplom.pdf">[Kopie]</a> 	</td>
+        </tr>
+        <tr>
+            <td>Zeugnis von der mwi Unternehmensgruppe</td>
+            <td><a href="assets/zeugnis_mwi.pdf">[Kopie]</a> 	</td>
+        </tr>
+        <tr>
+            <td>Zeugnis von der HOLBORN Europa Raffinerie GmbH</td>
+            <td><a href="assets/zeugnis_her.pdf">[Kopie]</a> 	</td>
+        </tr>
+        <tr>
+            <td>Zertifikat <em>TopLink certified Trainer</em></td>
+            <td><a href="assets/toplink.pdf">[Kopie]</a></td>
+        </tr>
+    </tbody>
+</table>
+
+
+{% assign sorted_pages = (site.pages | sort: 'pos') %}
+{% for p in sorted_pages %}
+  	{% if p.excluded != 1 and p.lang == 'de' %}
+  		<h2>{{ p.title }}</h2>
+  		<div>{{ p.content | liquify }}</div>
+  	{% endif %}
+{% endfor %}
+
+<h2>Projekte</h2>
+{% for project in site.data.projects %}
+  {% if project.archived == 0 %}
+  <h2>{{ project.title }}</h2>
+  <table>
+    <tr>
+      <td>Aufgabenstellung</td>
+      <td>{{ project.issue | markdownify }}</td>
+    </tr>
+    <tr>
+      <td>Zeitraum</td>
+      <td>{{ project.period }}</td>
+    </tr>
+    <tr>
+      <td>Branche</td>
+      <td>{{ project.sector }}</td>
+    </tr>
+    <tr>
+      <td>Technologien</td>
+      <td>{{ project.technic }}</td>
+    </tr>
+  </table>
+  {% endif %}
+{% endfor %}
+
