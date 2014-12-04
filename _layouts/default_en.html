@@ -9,9 +9,13 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="lang-switch">
-          <a href="index.html"><img src="img/iflag_ger.gif"/> german version</a>
-        </div>
+        {% for p in site.pages %}
+          {% if p.pos == page.pos and p.lang == 'de' %}
+	        <div class="lang-switch">
+	          <a href="{{ p.url }}"><img src="img/iflag_ger.gif"/> german version</a>
+	        </div>
+          {% endif %}
+        {% endfor %}
         {{ content }}
       </div>
     </div>
