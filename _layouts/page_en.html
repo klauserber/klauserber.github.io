@@ -4,10 +4,11 @@ sitetitle: Klaus Erber online profile
 sitedesc: On this site you can find all the informations that are necessary for a job application.
 ---
 <div class="post">
-
+  {% if page.notitle != 1 %}
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
+  {% endif %}
 
   <article class="post-content">
     {{ content }}

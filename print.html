@@ -1,10 +1,45 @@
 ---
-title: Projects
+title: Print
 layout: page_en
 lang: en
-pos: 5
+pos: 6
 excluded: 1
+notitle: 1
 ---
+<h1>Profile Klaus Erber</h1>
+<img class="my-image" src="img/ErberKlaus.jpg" />
+<p>Weitere Dokumente:</p>
+<table style="width:50%">
+    <tbody>
+        <tr>
+            <td style="width:70%">Diploma</td>
+            <td><a href="assets/diplom.pdf">[Kopie]</a> 	</td>
+        </tr>
+        <tr>
+            <td>Assessment mwi company group</td>
+            <td><a href="assets/zeugnis_mwi.pdf">[Kopie]</a> 	</td>
+        </tr>
+        <tr>
+            <td>Assessment HOBORN Europa Raffinerie GmbH</td>
+            <td><a href="assets/zeugnis_her.pdf">[Kopie]</a> 	</td>
+        </tr>
+        <tr>
+            <td><em>TopLink certified Trainer</em></td>
+            <td><a href="assets/toplink.pdf">[Kopie]</a></td>
+        </tr>
+    </tbody>
+</table>
+
+
+{% assign sorted_pages = (site.pages | sort: 'pos') %}
+{% for p in sorted_pages %}
+  	{% if p.excluded != 1 and p.lang == 'en' %}
+  		<h2>{{ p.title }}</h2>
+  		<div>{{ p.content }}</div>
+  	{% endif %}
+{% endfor %}
+
+<h2>Projects</h2>
 {% for project in site.data.projects %}
 {% if project.archived == 0 %}
 <h2>

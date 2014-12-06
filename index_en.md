@@ -1,6 +1,7 @@
 ---
 layout: page_en
 lang: en
+excluded: 1
 ---
 <img class="my-image" src="img/ErberKlaus.jpg" />
 
