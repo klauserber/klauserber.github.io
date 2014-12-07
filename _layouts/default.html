@@ -10,8 +10,8 @@
       <div class="wrapper">
           {% for p in site.pages %}
             {% if p.pos == page.pos and p.lang == 'en' %}
-		      <div class="lang-switch">
-		        <a href="{{ p.url }}"><img src="img/iflag_uk.gif"/> english version</a>
+		          <div class="lang-switch hide-print">
+		              <a href="{{ p.url }}"><img src="img/iflag_uk.gif"/> english version</a>
               </div>
             {% endif %}
           {% endfor %}

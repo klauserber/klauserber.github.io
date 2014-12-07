@@ -46,6 +46,31 @@ nav {
   }
 }
 
+@media print {
+	.show-print {
+		display: block;
+	}
+
+	.hide-print {
+		display: none;
+	}
+
+	.my-image {
+		width: 125px;
+	}
+}
+
+@media screen {
+	.show-print {
+		display: none;
+	}
+
+	.hide-print {
+		display: block;
+	}
+
+}
+
 .page-content {
   padding: 10px 0px;
 }
@@ -54,14 +79,15 @@ nav {
   text-align: right;
 }
 
-a:hover {
-  text-decoration: none;
+.page-content a {
+  text-decoration: underline;
 }
 
 .my-image {
   float: right;
-  border: 2px solid $grey-color;
+  border: 2px solid $grey-color-light;
   padding: 3px;
+	margin: 0 10px 10px 10px;
 }
 
 /* Tables */
