@@ -2,27 +2,134 @@
 
 # =========================================================
 # Project
-- title:
-  title_en:
+- title: Redesign Entwicklungsinfrastrukur
+  title_en: Redesign development infrastructure
 # =========================================================
 
   issue: |
+    Umstellung einer Anwendungsgruppe von einem eigen entwickelten Application Server auf JBoss. Umstellung der Build- und Deploymentumgebung auf moderne Technologien.
 
+  period: 01/2012 - 12/2012 (Vollzeit)
 
-  period:
+  period_en: 01/2012 - 12/2012 (full time)
 
-  sector:
+  sector: Bank
 
-  technic:
+  technic: JBoss 5, JON (JBoss Operation Network), Jenkins, Apache Maven
 
   issue_en: |
-
+    
 
   sector_en:
 
   technic_en:
 
   archived: -1
+
+# =========================================================
+# Project
+- title: App Entwicklung Evaluierung
+  title_en: App development evaluation
+# =========================================================
+
+  issue: |
+    Teilnahme am Wettbewerb Apps für Deutschland (Open Data) mit einer App für Strömungsprognosen sowie Entwicklung eine nativen iOS App für Flugzeugtracking.
+
+  period: 10/2011 - 12/2011
+
+  sector: IT
+
+  technic: Tomcat, Java 6/7, Objective C, JavaScript, HTML5, iOS, Android, Phone Gap
+
+  issue_en: |
+    Participation on the competition 'App für Deutschland' with an app for water flow forcasts in the north and east sea. Development of an App for plane tracking.
+
+  sector_en:
+
+  technic_en:
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: Händlerplattform für Autoleasing
+  title_en: Dealer platform for automotive leasing
+# =========================================================
+
+  issue: |
+    Konzeption und Implementierung zur Unterstützung der Geschäftprozesse beim Autohändler. Fahrzeugauswahl und -konfiguration, Leasingparameter, Kundenverwaltung, Angebotserstellung und Vertragserstellung mit automatisierten Genehmigungsprozess.
+
+    Integration und Nutzung der bestehenden Anwendungssysteme.
+
+  period: 11/2010 - 09/2011 (Vollzeit)
+
+  period_en: 11/2010 - 09/2011 (full time)
+
+  sector: Autoleasing
+
+  technic: Tomcat, Java 6, Apache Wicket, TopLink/eclipseLink, Oracle 9i/11g
+
+  issue_en: |
+    Conception and implementation to support the car dialer business processes. Car selection and configuration, leasing parameters, customer management, offers and contracts with a automated approval process.
+
+  sector_en: Automotive Leasing
+
+  technic_en:
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: JMX basiertes Monitoring System
+  title_en: JMX based monitoring system
+# =========================================================
+
+  issue: |
+    Konzeption und Entwicklung eines Systems zur Überwachung von Java-Server-Prozessen.
+
+  period: 06/2011 - 09/2011
+
+  sector: Autoleasing
+
+  technic: Tomcat, Java 6, Apache Wicket, TopLink/eclipseLink, JMX, H2 Database
+
+  issue_en: |
+    Conception and implementation of a system to monitor java server processes.
+
+  sector_en: Automotive leasing
+
+  technic_en:
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: SOA Architekturberatung
+  title_en: SOA architecture consulting
+# =========================================================
+
+  issue: |
+    Workshop Durchführung, Konzeption und Implementierung eines Beispiel Geschäftsprozesses.
+
+  period: 07/2010 - 08/2010 (Vollzeit)
+
+  period_en: 07/2010 - 08/2010 (full time)
+
+  sector: Druckdienstleister
+
+  technic: JBoss SOA Suite, Java 6, JBoss 5, JBossESB, jBPM, jUDDI, JBossWS
+
+  issue_en: |
+    Conception and implementation of a sample business process, workshop conducted
+
+  sector_en: print service provider
+
+  technic_en:
+
+  archived: 0
 
 
 
