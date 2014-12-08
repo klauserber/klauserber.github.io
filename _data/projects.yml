@@ -2,29 +2,197 @@
 
 # =========================================================
 # Project
-- title: Redesign Entwicklungsinfrastrukur
-  title_en: Redesign development infrastructure
+- title:
+  title_en:
 # =========================================================
 
   issue: |
-    Umstellung einer Anwendungsgruppe von einem eigen entwickelten Application Server auf JBoss. Umstellung der Build- und Deploymentumgebung auf moderne Technologien.
 
-  period: 01/2012 - 12/2012 (Vollzeit)
 
-  period_en: 01/2012 - 12/2012 (full time)
+  period:
 
-  sector: Bank
+  period_en:
 
-  technic: JBoss 5, JON (JBoss Operation Network), Jenkins, Apache Maven
+  sector:
+
+  technic:
 
   issue_en: |
-    
+
 
   sector_en:
 
   technic_en:
 
   archived: -1
+
+# =========================================================
+# Project
+- title: HTML5 App für Musiker
+  title_en: HTML5 App for musicans
+# =========================================================
+
+  issue: |
+    App zur Anzeige von Song-Informationen auf der Bühne. Erstellung von Setlisten, Touch-Bedienung, Komplett offline nutzbar, Cloud-Sync und -Sharing.
+
+  period: 09/2014 - 11/2014
+
+  period_en:
+
+  sector: Endbenutzer
+
+  technic: HTML5, Bootstrap, Dart (dartlang.org - typsicheres JavaScript), Google Drive API
+
+  issue_en: |
+    App to display song informations on stage. Creation of set lists, touch operations, completely offline useable, cloud sync and share.
+
+  sector_en:
+
+  technic_en: HTML5, Bootstrap, Dart (dartlang.org - type safe JavaScript), Google Drive API
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: Neuentwicklung einer Komponente für Fahrzeugmanagement
+  title_en: Development of a new component for car management
+# =========================================================
+
+  issue: |
+    Ersatz einer Fremdkomponente durch eine Eigenentwicklung. Datenbasis Schwacke Euro 3, diverse Backendservices, Frontendkomponenten, Integration und Datenmigration.
+
+  period: 04/2014 - 01/2015
+
+  fulltime: 1
+
+  period_en:
+
+  sector: Auto Leasing
+
+  technic: Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, MyBatis, Oracle 11g, Drools Evaluierung
+
+  issue_en: |
+    Replacement of a third party component. Based on Schwacke Euro 3 data, several backend services, frontend components, integration and data migration.
+
+  sector_en:
+
+  technic_en:  Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, MyBatis, Oracle 11g, Drools evaluation
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: Öffentliches Portal für Auto Leasing
+  title_en: Public portal for automotive leasing
+# =========================================================
+
+  issue: |
+    Konzeption und Implementierung einer Internetplattform zur Erstellung von Leasingangeboten. Fahrzeugauswahl und -konfiguration, Leasingparameter, Kundenregistrierung und Angebotserstellung.
+
+  period: 11/2013 - 03/2014
+
+  fulltime: 1
+
+  period_en:
+
+  sector: Auto Leasing
+
+  technic: Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, Oracle 11g
+
+  issue_en: |
+    Conception and implementation of a internet platform for car leasing. Car selection and configuration, leasing parameters, customer registration and offer creation.
+
+  sector_en: Automotive Leasing
+
+  technic_en:
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: Entwicklung Redaktionsclient
+  title_en: Client for a editorial office
+# =========================================================
+
+  issue: |
+    Konzeption und Implementierung einer Desktopanwendung zur Produktion von Publikationen für druck und digital Publikation. Entwicklung eines WYSIWYG-Editors für das verlagseigene Format.
+
+  period: 01/2013 - 10/2013
+
+  fulltime: 1
+
+  period_en:
+
+  sector: Verlag
+
+  technic: Java 7, Groovy, Griffon, JavaFX, JavaScript
+
+  issue_en: |
+    Conception and implementation off a desktop application for print and digital publishing. Implementation of a WYSIWYG editor for the own data format.
+
+  sector_en: Publishing house
+
+  technic_en:
+
+  archived: 0
+
+
+# =========================================================
+# Project
+- title: EJB Migration
+  title_en: EJB migration
+# =========================================================
+
+  issue: |
+    Umstellung einer EJB 2.1 Anwendung auf EJB 3.1
+
+  period: 02/2013 - 06/2013
+
+  period_en:
+
+  sector: IT Infrastruktur
+
+  technic: JBoss 7.2, EJB 3.1, JMS
+
+  issue_en: |
+    Switch an application from EJB 2.1 to EJB 3.1
+
+  sector_en: IT infrastructure
+
+  technic_en:
+
+  archived: 0
+
+
+
+# =========================================================
+# Project
+- title: Redesign Entwicklungsinfrastrukur
+  title_en: Redesign development infrastructure
+# =========================================================
+
+  issue: |
+    Umstellung einer Anwendungsgruppe von einem eigen entwickelten Application Server auf JBoss. Umstellung der Build- und Deployment-/Provisioning-Umgebung auf moderne Technologien.
+
+  period: 01/2012 - 12/2012
+
+  fulltime: 1
+
+  sector: Bank
+
+  technic: JBoss 5, Java, Groovy, JON (JBoss Operation Network), Jenkins, Apache Maven
+
+  issue_en: |
+    Switch a group of applications to a modern infrastructure. From a self developed application server to JBoss, from ant to maven, build a modern deployment and provisioning environment.
+
+  sector_en:
+
+  technic_en:
+
+  archived: 0
 
 # =========================================================
 # Project
@@ -68,7 +236,7 @@
 
   sector: Autoleasing
 
-  technic: Tomcat, Java 6, Apache Wicket, TopLink/eclipseLink, Oracle 9i/11g
+  technic: Tomcat, Java 6, Apache Wicket, TopLink/eclipseLink, Oracle 11g
 
   issue_en: |
     Conception and implementation to support the car dialer business processes. Car selection and configuration, leasing parameters, customer management, offers and contracts with a automated approval process.
