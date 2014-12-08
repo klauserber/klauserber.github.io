@@ -28,33 +28,6 @@
 
 # =========================================================
 # Project
-- title: HTML5 App für Musiker
-  title_en: HTML5 App for musicans
-# =========================================================
-
-  issue: |
-    App zur Anzeige von Song-Informationen auf der Bühne. Erstellung von Setlisten, Touch-Bedienung, Komplett offline nutzbar, Cloud-Sync und -Sharing.
-
-  period: 09/2014 - 11/2014
-
-  period_en:
-
-  sector: Endbenutzer
-
-  technic: HTML5, Bootstrap, Dart (dartlang.org - typsicheres JavaScript), Google Drive API
-
-  issue_en: |
-    App to display song informations on stage. Creation of set lists, touch operations, completely offline useable, cloud sync and share.
-
-  sector_en:
-
-  technic_en: HTML5, Bootstrap, Dart (dartlang.org - type safe JavaScript), Google Drive API
-
-  archived: 0
-
-
-# =========================================================
-# Project
 - title: Neuentwicklung einer Komponente für Fahrzeugmanagement
   title_en: Development of a new component for car management
 # =========================================================
@@ -80,6 +53,33 @@
   technic_en:  Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, MyBatis, Oracle 11g, Drools evaluation
 
   archived: 0
+
+# =========================================================
+# Project
+- title: HTML5 App für Musiker
+  title_en: HTML5 App for musicans
+# =========================================================
+
+  issue: |
+    App zur Anzeige von Song-Informationen auf der Bühne. Erstellung von Setlisten, Touch-Bedienung, Komplett offline nutzbar, Cloud-Sync und -Sharing.
+
+  period: 09/2014 - 11/2014
+
+  period_en:
+
+  sector: Endbenutzer
+
+  technic: HTML5, Bootstrap, Dart (dartlang.org - typsicheres JavaScript), Google Drive API
+
+  issue_en: |
+    App to display song informations on stage. Creation of set lists, touch operations, completely offline useable, cloud sync and share.
+
+  sector_en:
+
+  technic_en: HTML5, Bootstrap, Dart (dartlang.org - type safe JavaScript), Google Drive API
+
+  archived: 0
+
 
 
 # =========================================================
