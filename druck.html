@@ -61,26 +61,4 @@ notitle: 1
 {% endfor %}
 
 <h2>Projekte</h2>
-{% for project in site.data.projects %}
-  {% if project.archived == 0 %}
-  <h2>{{ project.title }}</h2>
-  <table>
-    <tr>
-      <td>Aufgabenstellung</td>
-      <td>{{ project.issue | markdownify }}</td>
-    </tr>
-    <tr>
-      <td>Zeitraum</td>
-      <td>{{ project.period }}</td>
-    </tr>
-    <tr>
-      <td>Branche</td>
-      <td>{{ project.sector }}</td>
-    </tr>
-    <tr>
-      <td>Technologien</td>
-      <td>{{ project.technic }}</td>
-    </tr>
-  </table>
-  {% endif %}
-{% endfor %}
+{% include projects.inc.html status=0 %}

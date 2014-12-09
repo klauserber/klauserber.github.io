@@ -8,8 +8,8 @@ notitle: 1
 ---
 <a href="#" class="hide-print" onclick="window.print();"><img src="img/printbutton.gif"></a>
 <h1>Profile Klaus Erber</h1>
+<p>Other documents:</p>
 <img class="my-image" src="img/ErberKlaus.jpg" />
-<p>Weitere Dokumente:</p>
 <table style="width:70%">
     <tbody>
         <tr>
@@ -61,56 +61,4 @@ notitle: 1
 {% endfor %}
 
 <h2>Projects</h2>
-{% for project in site.data.projects %}
-{% if project.archived == 0 %}
-<h2>
-  {% if project.title_en %}
-    {{ project.title_en }}
-  {% else %}
-    {{ project.title }}
-  {% endif %}
-</h2>
-<table>
-  <tr>
-    <td>Issue</td>
-    <td>
-      {% if project.issue_en %}
-        {{ project.issue_en | markdownify }}
-      {% else %}
-        {{ project.issue | markdownify }}
-      {% endif %}
-    </td>
-  </tr>
-  <tr>
-    <td>Period</td>
-    <td>
-      {% if project.period_en %}
-        {{ project.period_en }}
-      {% else %}
-        {{ project.period }}
-      {% endif %}
-    </td>
-  </tr>
-  <tr>
-    <td>Sector</td>
-    <td>
-      {% if project.sector_en %}
-        {{ project.sector_en }}
-      {% else %}
-        {{ project.sector }}
-      {% endif %}
-    </td>
-  </tr>
-  <tr>
-    <td>Technologies</td>
-    <td>
-      {% if project.technic_en %}
-        {{ project.technic_en }}
-      {% else %}
-        {{ project.technic }}
-      {% endif %}
-    </td>
-  </tr>
-</table>
-{% endif %}
-{% endfor %}
+{% include projects_en.inc.html status=0 %}

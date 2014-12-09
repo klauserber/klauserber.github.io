@@ -16,7 +16,7 @@
       <div class="trigger">
         {% assign sorted_pages = (site.pages | sort: 'pos') %}
         {% for p in sorted_pages %}
-          {% if p.title and p.lang == include.lang %}
+          {% if p.title and p.lang == include.lang and p.notinmenu != 1 %}
             {% if p.pos == page.pos %}
               <a class="page-link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
             {% endif %}

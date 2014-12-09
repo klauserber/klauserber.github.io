@@ -1,31 +1,3 @@
-# Template
-
-# =========================================================
-# Project
-- title:
-  title_en:
-# =========================================================
-
-  issue: |
-
-
-  period:
-
-  period_en:
-
-  sector:
-
-  technic:
-
-  issue_en: |
-
-
-  sector_en:
-
-  technic_en:
-
-  archived: -1
-
 # =========================================================
 # Project
 - title: Neuentwicklung einer Komponente für Fahrzeugmanagement
@@ -230,9 +202,9 @@
 
     Integration und Nutzung der bestehenden Anwendungssysteme.
 
-  period: 11/2010 - 09/2011 (Vollzeit)
+  period: 11/2010 - 09/2011
 
-  period_en: 11/2010 - 09/2011 (full time)
+  fulltime: 1
 
   sector: Autoleasing
 
@@ -282,9 +254,9 @@
   issue: |
     Workshop Durchführung, Konzeption und Implementierung eines Beispiel Geschäftsprozesses.
 
-  period: 07/2010 - 08/2010 (Vollzeit)
+  period: 07/2010 - 08/2010
 
-  period_en: 07/2010 - 08/2010 (full time)
+  fulltime: 1
 
   sector: Druckdienstleister
 
@@ -297,7 +269,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 
 
@@ -311,6 +283,8 @@
     Projektleitung in einem Projekt zur Erstellung einer Logistikanwendung für Flugzeugbetankungen.
 
   period: 01/2007 - 01/2011
+
+  fulltime: 1
 
   sector: Softwarehersteller, Logistik, Flugzeugbetankung
 
@@ -331,9 +305,11 @@
 
   issue: Entwicklung eines Web Clients zur Dokumentenrecherche. Nutzung der SOA.
 
-  issue_en: Implementation of a document recherche web client application (debuty project leader). Using the SOA.
+  issue_en: Implementation of a document recherche web client application. Using the SOA.
 
   period: 05/2006 - 12/2006
+
+  fulltime: 1
 
   sector: Verlag
 
@@ -351,7 +327,7 @@
 # =========================================================
 
   issue: |
-    Architekturentwurf, Coaching und Qualitätssicherung im Umfeld einer   Softwareproduktentwicklung im Logistikbereich (Flugzeugbetankung).
+    Architekturentwurf, Coaching und Qualitätssicherung im Umfeld einer Softwareproduktentwicklung im Logistikbereich (Flugzeugbetankung).
 
   period: 01/2006 - 12/2006
 
@@ -364,7 +340,7 @@
 
   sector_en: Software vendor, logistics, aircraft refueling
 
-  archived: 0
+  archived: 1
 
 
 # =========================================================
@@ -374,9 +350,11 @@
 # =========================================================
 
   issue: |
-    Bereitstellung einer EJB3-Infrastruktur zur Service orienierten Entwicklung für ein Online Nachrichtenportal (stellv. Projektleitung).
+    Bereitstellung einer EJB3-Infrastruktur zur Service orienierten Entwicklung für ein Online Nachrichtenportal.
 
   period: 09/2005 - 02/2006
+
+  fulltime: 1
 
   sector: Verlag
 
@@ -401,6 +379,8 @@
 
   period: 07/2005 – 08/2005
 
+  fulltime: 1
+
   sector: Verlag
 
   technic: JSP/Servlets, WSDL, SOAP
@@ -411,7 +391,7 @@
 
   sector_en: publishing house
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -423,6 +403,8 @@
     Redesign einer Archivanwendung für Verlage. Architekturumstellung auf eine Service orientierte Architektur (SOA) auf Basis von J2EE und Webservices.
 
   period: 02/2005 – 09/2005
+
+  fulltime: 1
 
   sector: Verlag
 
@@ -453,7 +435,7 @@
   issue_en: |
     Support a senior thesis to build a standard based enterprise portal. Requirements analysis, evaluating, architecture.
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -465,6 +447,8 @@
     Erweiterung einer Archivanwendung für Verlage um ein neues Webfrontend.
 
   period: 01/2004 – 01/2005
+
+  fulltime: 1
 
   sector: Verlag
 
@@ -599,7 +583,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -617,6 +601,8 @@
     Entwicklung eines XML basierten Protokolls zum Datenaustausch. Implementierung der VBA-Teile.
 
   period: 02/2002 - 10/2002
+
+  fulltime: 1
 
   sector: Bank
 
@@ -650,6 +636,8 @@
 
   period: 10/2001 - 01/2002
 
+  fulltime: 1
+
   sector: Presseagentur
 
   technic: Oracle8i, Visual Basic, OLEDB, CORBA 2.3, J2EE, Web Services (Apache- und MS SOAP)
@@ -663,7 +651,7 @@
 
   technic_en: Oracle8i, Visual Basic, OLEDB, CORBA 2.3, J2EE, Web Services (Apache- and MS SOAP)
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -676,6 +664,8 @@
 
   period: 09/2001
 
+  fulltime: 1
+
   sector: Behörde
 
   technic: Oracle8i, Oracle Lite, Oracle Mobile Server
@@ -687,7 +677,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -700,6 +690,8 @@
 
   period: 08/2001
 
+  fulltime: 1
+
   sector: Behörde
 
   technic: ERWin, Java/JDBC, Oracle SQL Loader, Windows NT 4.0, SunOS 2.6
@@ -711,7 +703,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -736,6 +728,8 @@
 
   period: 01/2001 - 06/2001
 
+  fulltime: 1
+
   sector: Versicherung
 
   technic: XML (Austauschformat), JDK1.3, jdom (Java-XML-API), JFC/Swing,JBuilder Open Tools API (Erweiterungsschnittstelle für Borlands JBuilder), SGML/Docbook/Jade/XEmacs (zur Projektdokumentation)
@@ -759,7 +753,7 @@
 
   technic_en: XML (exchange format), JDK1.3, jdom (Java-XML-API), JFC/Swing,JBuilder open tools API (extention interface for Borlands JBuilder),SGML/Docbook/Jade/XEmacs (for project documentation)
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -783,7 +777,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -806,6 +800,8 @@
 
   period: 06/1999 - 10/2000
 
+  fulltime: 1
+
   sector: Versicherung
 
   technic: Evaluierung XML-APIs (Java, C), JSP/Servlets/JavaScript, Java WEB-Start, Java IDEs (Jbuilder, Forte4j, VisualCafe), JavaPlugins 1.2/1.3, Webbrowser Netscape (4.7x, 6.0), Internet Explorer (5.0, 5.5), div. inhouse-APIs, Open-Source-Lizenzen. Serverteil (C, DB2, AIX/SunOS, CICS/UNIKIX)
@@ -827,7 +823,7 @@
 
   technic_en: Evaluation XML-APIs (Java, C), JSP/Servlets/JavaScript, Java WEB-Start, Java IDEs (Jbuilder, Forte4j, VisualCafe), JavaPlugins 1.2/1.3, Webbrowser Netscape (4.7x, 6.0), Internet Explorer (5.0, 5.5), div. inhouse-APIs, open-source-licences. Server section (C, DB2, AIX/SunOS, CICS/UNIKIX)
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -851,7 +847,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -875,7 +871,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -899,7 +895,7 @@
 
   technic_en: Linux, standard INTEL-PC-components, EPROM development for network devices, BOOTP as boot mechanism, Linux kernel configuration and compilation, installation and configuration of various Linux applications (apache, KDE, development environments and other), UNIX shell programming (backup concept), setup of various network services under Linux (POP3, IMAP4, HTTP, FTP and other), ISDN connections to the internet and to the customer networks.
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -923,7 +919,7 @@
 
   technic_en: Windows NT Server, Windows NT WS, Visual Basic 5.0, MS-SQL-Server 6.5, Rational Rose/MS-Visual-Modeller, COM, RDO, Excel-VBA-development, DEC/VMS machine for process data archiving with the standard softare CONDAS.
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -947,7 +943,7 @@
 
   technic_en: Standard software 'Mainplan', MS-Access for the temporary solution
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -975,7 +971,7 @@
 
   technic_en:
 
-  archived: 0
+  archived: 1
 
 # =========================================================
 # Project
@@ -1003,4 +999,4 @@
 
   technic_en: Lotus Symphony macro development, dBase
 
-  archived: 0
+  archived: 1
