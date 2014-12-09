@@ -9,6 +9,15 @@ h3 {
 	font-size: $base-font-size * 1.25;
 }
 
+body {
+	counter-reset: item;
+}
+
+.numerated:before {
+	content: counter(item) ". ";
+	counter-increment: item;
+}
+
 .site-header {
   position: fixed;
   top: 0px;

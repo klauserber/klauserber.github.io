@@ -1,6 +1,6 @@
 {% for project in site.data.projects %}
 {% if project.archived == include.status or include.status == "all" %}
-<h2>
+<h2 class="numerated">
   {% if project.title_en %}
   {{ project.title_en }}
   {% else %}
@@ -28,7 +28,7 @@
       {% endif %}
       {% if project.fulltime == 1 %}
       (full time)
-      {% endif %}      
+      {% endif %}
     </td>
   </tr>
   <tr>
