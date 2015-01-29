@@ -1,5 +1,31 @@
 # =========================================================
 # Project
+- title: Neuentwicklung einer B2B-Plattform
+  title_en: Development of a new component for car management
+# =========================================================
+
+  issue: |
+    Neuentwicklung einer Anwendung für das Fuhrparkmanagement.
+
+  period: seit 12/2014
+
+  period_en: since 12/2014
+
+  fulltime: 1
+
+  sector: Auto Leasing
+
+  technic: Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, Oracle 11g
+
+  issue_en: |
+    Development of an application for fleet management.
+
+  sector_en:
+
+  archived: 0
+
+# =========================================================
+# Project
 - title: Neuentwicklung einer Komponente für Fahrzeugmanagement
   title_en: Development of a new component for car management
 # =========================================================
