@@ -34,7 +34,7 @@
 
   issue: |
     App zur Statusdarstellung und zum Senden von Steuerbefehlen in MQTT basierten Smarthome Umgebungen.
-    Open Source: https://github.com/klauserber/homr-react
+    Open Source: <a href="https://github.com/klauserber/homr-react">HOMR-REACT</a>
     
   period: seit 09/2016
 
@@ -46,7 +46,7 @@
 
   issue_en: |
     App for status representation and sending control commands in MQTT-based Smarthome environments.
-    Open Source: https://github.com/klauserber/homr-react
+    Open Source: <a href="https://github.com/klauserber/homr-react">HOMR-REACT</a>
     
   sector_en: end user
 
