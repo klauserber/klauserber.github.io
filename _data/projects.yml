@@ -25,6 +25,33 @@
     damage report, dealer integration, recirculation market, ordering process.
 
   archived: 0
+
+# =========================================================
+# Project
+- title: HTML5 App zur Smarthome Steuerung
+  title_en: HTML5 App for smart home control
+# =========================================================
+
+  issue: |
+    App zur Statusdarstellung und zum Senden von Steuerbefehlen in MQTT basierten Smarthome Umgebungen.
+    Open Source: https://github.com/klauserber/homr-react
+    
+  period: seit 09/2016
+
+  period_en: since 09/2016
+
+  sector: Endbenutzer
+
+  technic: HTML5, Bootstrap, React (JavaScript Framework), Apache Paho MQTT lib
+
+  issue_en: |
+    App for status representation and sending control commands in MQTT-based Smarthome environments.
+    Open Source: https://github.com/klauserber/homr-react
+    
+  sector_en: end user
+
+  archived: 0
+
 # =========================================================
 # Project
 - title: Entwicklung eines Kundenportals mit dem Fokus Auto Leasing
@@ -101,11 +128,11 @@
   issue_en: |
     App to display song informations on stage. Creation of set lists, touch operations, completely offline useable, cloud sync and share.
 
-  sector_en:
+  sector_en: end user
 
   technic_en: HTML5, Bootstrap, Dart (dartlang.org - type safe JavaScript), Google Drive API
 
-  archived: 0
+  archived: 1
 
 
 
