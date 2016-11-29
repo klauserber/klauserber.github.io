@@ -1,15 +1,42 @@
 # =========================================================
 # Project
-- title: Neuentwicklung einer B2B-Plattform
+- title: Entwicklung eines Kundenportals mit dem Fokus Fuhrparkmanagement 
+  title_en: Development of a customer portal for car management
+# =========================================================
+
+  issue: |
+    Neuentwicklung eines Portals für das Fuhrparkmanagement. Themen: Fahrzeugkonfiguration, Kostenrechnung/Eigenanteil,
+    Firmenwagenrichtlinien, Mietwagenbestellung, Schadenmeldung, Händlereinbindung, Rückläufermarkt. 
+
+  period: seit 06/2015
+
+  period_en: since 06/2015
+
+  fulltime: 1
+
+  sector: Fuhrpark Management
+  
+  sector_en: Car management
+
+  technic: Tomcat, Java 7, BPMN/Camunda Workflow Manager, Apache Wicket, TopLink/eclipseLink, Oracle 11g
+
+  issue_en: |
+    Development of an application for fleet management.
+
+  archived: 0
+# =========================================================
+# Project
+- title: Entwicklung eines Kundenportals mit dem Fokus Auto Leasing
   title_en: Development of a new component for car management
 # =========================================================
 
   issue: |
-    Neuentwicklung einer Anwendung für das Fuhrparkmanagement.
+    Neuentwicklung eines Portals im Bereich Auto Leasing. Themen: Fahrzeugkonfiguration, Leasingratenberechnung, Firmenwagenrichtlinien,
+    
 
-  period: seit 12/2014
+  period: 12/2014
 
-  period_en: since 12/2014
+  period_en: since 12/2014 - 05/2014
 
   fulltime: 1
 
