@@ -6,7 +6,7 @@
 
   issue: |
     Neuentwicklung eines Portals für das Fuhrparkmanagement. Themen: Fahrzeugkonfiguration, Kostenrechnung/Eigenanteil,
-    Firmenwagenrichtlinien, Mietwagenbestellung, Schadenmeldung, Händlereinbindung, Rückläufermarkt. 
+    Firmenwagenrichtlinien, Mietwagenbestellung, Schadenmeldung, Händlereinbindung, Rückläufermarkt, Bestellprozess. 
 
   period: seit 06/2015
 
@@ -21,7 +21,8 @@
   technic: Tomcat, Java 7, BPMN/Camunda Workflow Manager, Apache Wicket, TopLink/eclipseLink, Oracle 11g
 
   issue_en: |
-    Development of an application for fleet management.
+    Development of an portal for fleet management. Subjects: Vehicle configuration, cost calculation, car policies, car rental,
+    damage report, dealer integration, recirculation market, ordering process.
 
   archived: 0
 # =========================================================
@@ -32,7 +33,7 @@
 
   issue: |
     Neuentwicklung eines Portals im Bereich Auto Leasing. Themen: Fahrzeugkonfiguration, Leasingratenberechnung, Firmenwagenrichtlinien,
-    
+    Mietwagenbestellung, Schadenmeldung, Angebotserstellung.
 
   period: 12/2014
 
@@ -45,7 +46,8 @@
   technic: Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, Oracle 11g
 
   issue_en: |
-    Development of an application for fleet management.
+    Development of a portal for auto leasing. Subjects: Vehicle configuration, Lease rate calculation, car policies,
+    car rental, damage report, bidding.
 
   sector_en:
 
