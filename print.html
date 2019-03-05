@@ -55,7 +55,7 @@ notitle: 1
 
 {% assign sorted_pages = (site.pages | sort: 'pos') %}
 {% for p in sorted_pages %}
-  	{% if p.excluded != 1 and p.lang == 'en' %}
+  	{% if p.print_excluded != 1 and p.lang == 'en' %}
   		<h2>{{ p.title }}</h2>
   		<div>{{ p.content }}</div>
   	{% endif %}
