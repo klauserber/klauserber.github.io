@@ -3,7 +3,7 @@ layout: page_en
 lang: en
 excluded: 1
 ---
-<img class="my-image" src="img/ErberKlaus.jpg" />
+<img class="my-image" width="30%" src="img/ErberKlaus.jpg" />
 
 Hello,
 
