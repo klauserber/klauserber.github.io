@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Start
 layout: page
 lang: de
 pos: 0
