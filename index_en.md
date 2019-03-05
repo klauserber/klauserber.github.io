@@ -3,6 +3,7 @@ title: Home
 layout: page_en
 lang: en
 pos: 0
+print_excluded: 1
 ---
 <img class="my-image" width="30%" src="img/ErberKlaus.jpg" />
 
