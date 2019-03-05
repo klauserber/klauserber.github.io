@@ -1,7 +1,8 @@
 ---
+title: Home
 layout: page
 lang: de
-excluded: 1
+pos: 0
 ---
 <img class="my-image" width="30%" src="img/ErberKlaus.jpg" />
 
