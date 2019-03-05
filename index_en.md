@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Start
 layout: page_en
 lang: en
 pos: 0
