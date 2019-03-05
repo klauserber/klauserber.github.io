@@ -3,7 +3,7 @@ layout: page
 lang: de
 excluded: 1
 ---
-<img class="my-image" src="img/ErberKlaus.jpg" />
+<img class="my-image" width="20%" src="img/ErberKlaus.jpg" />
 
 Ich freue mich, Sie auf meinen WEB-Seiten begrüßen zu können.
 
