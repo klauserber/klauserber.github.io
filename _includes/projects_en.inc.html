@@ -51,6 +51,16 @@
       {% endif %}
     </td>
   </tr>
+  <tr>
+    <td>Roles</td>
+    <td>
+      {% if project.roles_en %}
+      {{ project.roles_en }}
+      {% else %}
+      {{ project.roles }}
+      {% endif %}
+    </td>
+  </tr>
 </table>
 {% endif %}
 {% endfor %}

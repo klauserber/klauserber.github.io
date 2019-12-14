@@ -1,3 +1,232 @@
+
+# =========================================================
+# Project
+- title: Rezeptabarbeitung
+  title_en: recipe execution engine
+# =========================================================
+
+  issue: |
+    Neuimplementierung eines Workflow-engines zur Rezeptabarbeitung bei der Arzneimittelproduktion.
+    Übergang von der vorhandenen monolithischen Architektur hin zu einer Microservice-Architektur inkl. Micro Frontends.
+  
+  issue_en: |
+    Reimplementation of a workflow engine for recipe execution in drug production.
+    Transition from the existing monolithic architecture to a microservice architecture including micro frontends.
+
+  period: seit 08/2019
+
+  period_en: since 08/2019
+
+  fulltime: 1
+
+  sector: Endbenutzer
+  
+  sector_en: end user
+
+  technic: |
+    Java/Spring Boot, Event Sourcing – AXON Framework, Oracle DB, RabbitMQ, Docker, Vue.js/Vuex, Web Components Standard, PWA, mobile First.
+
+  archived: 0
+
+  roles: Alle
+
+  roles_en: all
+
+
+# =========================================================
+# Project
+- title: Mobile App GuruFlow
+  title_en: 
+# =========================================================
+
+  issue: |
+    Guru Flow ist eine App, die dich bei deiner täglichen Yoga- oder Pilates-Praxis unterstützt. 
+    Wenn du Yogalehrer(-in) bist, kann Guru Flow dich bei deiner Kursplanung und -Durchführung unterstützen.
+    Touch-Bedienung, Komplett offline nutzbar, automatischer Cloud-Sync, Mini-Vectorzeichner-Funktion zur grafischen Darstellung der Übungen, Google Anmeldung.
+  
+  issue_en: |
+    Guru Flow is an app that supports you in your daily yoga or Pilates practice.
+    If you are a yoga teacher, Guru Flow can help you plan and run your courses.
+    Touch operation, can be used completely offline, automatic cloud sync, mini-vector drawing function for graphical representation of the exercises, Google registration.
+
+  period: seit 10/2019
+
+  period_en: since 10/2019
+
+  fulltime: 0
+
+  sector: Endbenutzer
+  
+  sector_en: end user
+
+  technic: |
+    Google Firebase, Vue.js/VueX/Vuetify, serverless CloudFunctions, TypeScript, Progressive Web App, mobile First.
+
+  archived: 0
+
+  roles: Alle
+
+  roles_en: all
+
+
+# =========================================================
+# Project
+- title: App spaces
+  title_en: 
+# =========================================================
+
+  issue: |
+    Multi Cloud/on premise Umgebung für IT-Projekte. Design-Prinzipien: Cloud native 12 Factor Apps, Infrastructure as Code, Pets vs Cattle,
+    Continues Integration/Delivery/Deployment.
+  
+  issue_en: |
+    Platform for automatic handling of leasing contract conclusions, incl. Marketplace connection, signing by video chat and credit check.
+
+  period: 12/2018 – 07/2019
+
+  period_en:
+
+  fulltime: 0
+
+  sector: Leasing
+  
+  sector_en: leasing
+
+  technic: |
+    KVM, vSphere, GCP, Azure, AWS, Ubuntu, Cloudinit, Ansible, Python, golang, Vagrant, Packer, Terraform, Wireguard VPN, Docker,
+    Kubernetes, Gitlab, letsencrypt/certbot, restic, consul.
+
+  archived: 0
+
+  roles: DevOps Engineer
+
+  roles_en:
+
+
+# =========================================================
+# Project
+- title: Online Marktplätze - Automatisierter Vertragsabschluss
+  title_en: Online marketplaces - automated contract conclusion
+# =========================================================
+
+  issue: |
+    Plattform zur automatischen Abwicklung von Leasingvertragsabschlüssen, inkl. Marktplatzanbindung, Unterzeichnung per Videochat und Kreditprüfung.
+  
+  issue_en: |
+    Platform for automatic handling of leasing contract conclusions, incl. Marketplace connection, signing by video chat and credit check.
+
+  period: 04/2018 – 09/2019
+
+  period_en:
+
+  fulltime: 0
+
+  sector: Leasing
+  
+  sector_en: leasing
+
+  technic: Java 8, Spring Boot, Microservices, Angular, Camunda, Oracle, Docker, Kubernetes, ELK, Grafana, Prometheus.
+
+  archived: 0
+
+  roles: Beratung Architektur und Vorgehensmodell, DevOps-Engineer
+
+  roles_en: Consulting architecture and methods, DevOps engineer
+
+
+# =========================================================
+# Project
+- title: IT-Notfallhandbuch
+  title_en: IT emergency manual
+# =========================================================
+
+  issue: |
+    Erstellung eines IT-Notfallhandbuches nach BSI-Standard 100-4. ca. 700 IT-Prozesse, 3 eigene verteilte Rechenzentren.
+  
+  issue_en: |
+    Creation of an IT emergency manual according to BSI standard 100-4. Approx. 700 IT processes, 3 own distributed data centers.
+
+  period: 04/2018 – 11/2018
+
+  period_en:
+
+  fulltime: 0
+
+  sector: Versicherung
+  
+  sector_en: insurance
+
+  technic: keine
+
+  technic_en: none
+
+  archived: 0
+
+  roles: Projektleitung, Hauptautor
+
+  roles_en: Project leader, lead author
+
+
+# =========================================================
+# Project
+- title: Songs to go
+  title_en:
+# =========================================================
+
+  issue: |
+    App zur Anzeige von Song-Informationen auf der Bühne. Erstellung von Setlisten, Touch-Bedienung, Komplett offline nutzbar,
+    automatischer Cloud-Sync, Facebook und Google Anmeldung.
+
+  period: 10/2018 – 12/2018
+
+  period_en:
+
+  fulltime: 0
+
+  sector: Endbenutzer
+  
+  sector_en: end user
+
+  technic: Google Firebase, Ionic 4, TypeScript, Progressive Web App, Android App, IOS App.
+
+  issue_en: |
+    App for displaying song informations on the stage. Creation of set lists, touch operation, can be used completely offline,
+    automatic cloud sync, Facebook and Google login.
+
+  archived: 0
+
+  roles: Alle
+
+  roles_en: all
+
+
+# =========================================================
+# Project
+- title: Tankcontainer Leasing - Entwicklung des Kernsystems
+  title_en: Tankcontainer Leasing - development of the core system
+# =========================================================
+
+  issue: |
+    Entwicklung der Kernanwendung zur Unterstützung sämtlicher Geschäftsprozesse des Unternehmens.
+
+  period: 05/2017 – 02/2018
+
+  period_en:
+
+  fulltime: 0
+
+  sector: Transport und Verkehr
+  
+  sector_en:
+
+  technic: Java 8, Wildfly 11, Angular, TypeScript, MySQL, Docker, Kubernetes, Google Cloud Platform, AWS, Azure 
+
+  issue_en: |
+    Development of the core application to support all business processes of the company.
+
+  archived: 0
+
+
 # =========================================================
 # Project
 - title: Entwicklung eines Kundenportals mit dem Fokus Fuhrparkmanagement 
@@ -8,9 +237,9 @@
     Neuentwicklung eines Portals für das Fuhrparkmanagement. Themen: Fahrzeugkonfiguration, Kostenrechnung/Eigenanteil,
     Firmenwagenrichtlinien, Mietwagenbestellung, Schadenmeldung, Händlereinbindung, Rückläufermarkt, Bestellprozess. 
 
-  period: seit 06/2015
+  period: 06/2015 - 05/2017
 
-  period_en: since 06/2015
+  period_en:
 
   fulltime: 1
 
@@ -36,13 +265,13 @@
     App zur Statusdarstellung und zum Senden von Steuerbefehlen in MQTT basierten Smarthome Umgebungen.
     Open Source: <a href="https://github.com/klauserber/homr-react">HOMR-REACT</a>
     
-  period: seit 09/2016
+  period: 09/2016
 
-  period_en: since 09/2016
+  period_en:
 
   sector: Endbenutzer
 
-  technic: HTML5, Bootstrap, React (JavaScript Framework), Apache Paho MQTT lib
+  technic: HTML5, Bootstrap, React, Apache Paho MQTT lib
 
   issue_en: |
     App for status representation and sending control commands in MQTT-based Smarthome environments.
@@ -62,9 +291,9 @@
     Neuentwicklung eines Portals im Bereich Auto Leasing. Themen: Fahrzeugkonfiguration, Leasingratenberechnung, Firmenwagenrichtlinien,
     Mietwagenbestellung, Schadenmeldung, Angebotserstellung.
 
-  period: 12/2014
+  period: 12/2014 - 05/2014
 
-  period_en: since 12/2014 - 05/2014
+  period_en:
 
   fulltime: 1
 
@@ -105,6 +334,8 @@
   sector_en:
 
   technic_en:  Tomcat, Java 7, Apache Wicket, TopLink/eclipseLink, MyBatis, Oracle 11g, Drools evaluation
+
+  roles: Consultant, DevOps-Engineer
 
   archived: 0
 
