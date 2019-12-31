@@ -88,9 +88,9 @@
 
   fulltime: 0
 
-  sector: Leasing
+  sector: IT
   
-  sector_en: leasing
+  sector_en:
 
   technic: |
     KVM, vSphere, GCP, Azure, AWS, Ubuntu, Cloudinit, Ansible, Python, golang, Vagrant, Packer, Terraform, Wireguard VPN, Docker,
