@@ -19,18 +19,18 @@
 
   fulltime: 1
 
-  sector: Endbenutzer
+  sector: Pharma
   
-  sector_en: end user
+  sector_en:
 
   technic: |
     Java/Spring Boot, Event Sourcing – AXON Framework, Oracle DB, RabbitMQ, Docker, Vue.js/Vuex, Web Components Standard, PWA, mobile First.
 
   archived: 0
 
-  roles: Alle
+  roles: Konzeption, Umsetzung
 
-  roles_en: all
+  roles_en: Conception, Implementation
 
 
 # =========================================================
